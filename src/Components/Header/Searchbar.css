@@ -11,7 +11,7 @@
 
 .searchbar-icon{
     position: relative;
-    left: 560px;
+    left: 10px;
     height: 45px;
     width: 45px;
     border-radius: 0px 5px 5px 0px;
@@ -21,3 +21,7 @@
     background-color: #111;
 }
 
+.searchbar input{
+    width: 100%;
+    background-color:rgba(0,47,52,0.03); ;
+}
