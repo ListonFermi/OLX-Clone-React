@@ -1,0 +1,21 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 120px;
+    height: 45px;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.all-categories{
+    display: flex;
+}
+
+.categories ul{
+    display: flex;
+}
+
+.categories ul li{
+    margin-left: 10px;
+}

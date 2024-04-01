@@ -1,0 +1,13 @@
+.products-section{
+    margin: 40px 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.product{
+    margin: 10px 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid gray;
+}

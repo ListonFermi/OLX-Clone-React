@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color:rgba(0,47,52,0.03);
+}
+
+.header-logo{
+    margin: 0px 20px;
+}
+
+.header-language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-language h1{
+    font-weight: bold;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold ;
+    font-size: 1.1rem;
+    text-decoration-line: underline;
+    margin-left: 20px;
+}
+
+a {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sell-btn {
+    display: flex;
+    align-items: center;
+ position: relative;
+ top: -35px;
+}

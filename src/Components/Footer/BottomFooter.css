@@ -1,0 +1,24 @@
+.bottom-footer{
+    margin-top: -30px;
+    height: 60px;
+    color: wheat;
+    font-size: 12px;
+    background-color: rgba(0,47,52,1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.bottom-footer p{
+    position: absolute;
+    cursor: pointer;
+}
+
+.bottom-footer p:first-child{
+    left: 150px;
+}
+
+.bottom-footer p:nth-child(2){
+    right: 150px;
+}

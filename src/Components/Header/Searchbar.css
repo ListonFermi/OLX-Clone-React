@@ -1,0 +1,23 @@
+.searchbar{
+    padding: 0px 10px;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    width: 790px;
+    height: 45px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.searchbar-icon{
+    position: relative;
+    left: 560px;
+    height: 45px;
+    width: 45px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+
