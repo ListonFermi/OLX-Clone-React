@@ -1,13 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './OneProduct.css'
+import { PostContext } from '../../Store/PostContext'
+import { useNavigate } from 'react-router-dom'
 
 function OneProduct({prop}) {
-  const {price,name,description, location, date} = prop
+  const {price,name,description, location, date, imageURLs} = prop
+  const {setPostDetails } = useContext(PostContext)
+  const navigate = useNavigate()
+
+  function clickHandler(){
+    setPostDetails(prop)
+    navigate('/viewPost')
+  }
   
   return (
-    <div className='product'>
+    <div className='product' onClick={clickHandler}>
       <div className="img-container">
-        <img src="/car1.jpeg" alt="" />
+        <img src={imageURLs[0]} alt="" />
       </div>
       <div className='text-container'>
         <h1 className="product-cost">₹{price}</h1>

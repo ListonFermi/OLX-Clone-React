@@ -6,9 +6,9 @@ import Footer from '../Components/Footer/Footer'
 function SignupPage() {
   return (
     <>
-      <Header/>
-        <Signup/>
-      <Footer/>
+      <Header />
+      <Signup />
+      <Footer />
     </>
   )
 }
