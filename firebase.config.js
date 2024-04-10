@@ -7,7 +7,7 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD3wjk2zeCGM3NAK22RVMpUfiyee2LGt3E",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "olx-clone-react-listonfermi.firebaseapp.com",
   projectId: "olx-clone-react-listonfermi",
   storageBucket: "olx-clone-react-listonfermi.appspot.com",
